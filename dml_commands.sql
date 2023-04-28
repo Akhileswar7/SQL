@@ -54,3 +54,11 @@ dob date
 )
 select * from dob;
 insert into dob values("2023-04-28");
+-- ---------------------------------------
+create table sales(salesman_id numeric primary key not null,name char(30),city varchar(30),commission numeric);
+alter table sales modify commission float;
+insert into sales values(5001,"james","new york",0.15);
+insert into sales values(5002,"nail","paris",0.13),(5005,"pit","london",0.11),(5007,"lyon","paris",0.14);
+select * from sales;
+select name,commission from sales;
+-- ------------------------------------
