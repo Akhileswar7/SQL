@@ -14,3 +14,10 @@
 -- INSERT INTO student values(402,"sai",9798759,"ECE");
 -- INSERT INTO student values(403,"ashok",9798759,"EEE");
 -- INSERT INTO student values(404,"siva",9798759,"civil");
+
+#task
+-- create database HeroVired;
+-- create table rgm(name char(30),college char(30),Sessin char(30),contact_No int,address varchar(30));
+-- select * from rgm;
+-- INSERT INTO rgm values("akhil","nyn","python",996331,"nandyal");
+-- INSERT INTO rgm values("anish","gpre","Ai",93980,"atp");
